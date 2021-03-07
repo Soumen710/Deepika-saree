@@ -1,0 +1,156 @@
+/********** My Wishlist Global *********/
+#feedPage0 label, #feedDetail label {
+	text-transform:uppercase;
+}
+#feedPage0 .content-area > .row, #feedDetail .content-area > .row {
+	margin-bottom:25px;
+}
+
+.feed-page .page_header {
+    margin-bottom: 25px;
+}
+.feed-page .breadcrumnb {
+    margin-bottom: 25px;
+}
+
+/********** feedPage0 *********/
+#feedPage0 {}
+#feedDetail {}
+.feedInfo {
+	margin-bottom:25px;
+}
+.sub_pages,
+.feeds_index {
+    margin: 0 0 20px;
+}
+
+.feed_additionalfields {
+    margin-top: 20px;
+}
+
+.page_heading span{
+    max-width: 72%;
+    display: inline-block;	
+}
+.feedInfo h4.page_heading {
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: .02em;
+	background: #fafafa;
+	padding: 12px 15px 12px 55px;
+	position: relative;
+	text-transform: none;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+#feedPage0 .feedInfo h4.page_heading span {
+	border-bottom: 1px solid transparent;
+}
+#feedPage0 .feedInfo h4.page_heading:before {
+	content: "Q";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 100%;
+	text-align: center;
+	background: #505050;
+	color: #ffff;
+	line-height: 36px;
+	font-size: 13px;
+	font-weight: 500;
+}
+#feedPage0 .feedInfo .pull-right {
+	display: none;
+}
+
+#feedPage0 .feedInfo .feedShortDescription {
+	display: none;
+}
+#feedPage0 .feedInfo.expanded .feedShortDescription {
+	display: block;
+}
+
+#feedPage0 .feedInfo.expanded h4.page_heading span {
+	display: inline-block;
+	border-bottom-color: #b3b3b3;
+}
+#feedPage0 .feedInfo .feedShortDescription .content {
+	padding-left: 55px;
+	position: relative;
+}
+#feedPage0 .feedInfo .feedShortDescription .content:before {
+	content: "A";
+	position: absolute;
+	top: 4px;
+	left: 0;
+	color: #323232;
+	font-size: 13px;
+	font-weight: 500;
+	width: 36px;
+	line-height: 36px;
+	border: 1px solid #b3b3b3;
+	text-align: center;
+}
+#feedPage0 p.desc {
+	margin-bottom: 30px;
+}
+#feedPage0 p.desc a {
+	color: #646464;
+	text-decoration: underline;
+}
+#feedPage0 p.desc a:hover {
+	color: #323232;
+}
+
+.contact-support {
+	text-align: right;
+	margin-top: 5px;
+}
+.contact-support span {
+	border-bottom: 1px solid #b3b3b3;
+	line-height: 15px;
+	display: inline-block;
+}
+.contact-support .btn {
+	margin-left: 20px;
+}
+@media (max-width: 1023px) {
+	.page_heading span{
+	    max-width: 100%;
+	    display: inline-block;	
+	}
+}
+
+@media (max-width: 480px) {
+	.contact-support {
+		text-align: center;
+		margin-top: 15px;
+	}
+	.contact-support .btn {
+		margin-top: 15px;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+.def-text {
+    margin-bottom: 15px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-width: 285px;
+}
+
+@media (max-width: 767px) {
+
+	.def-text{
+	    max-width: 90%;
+	    display: block;
+	    margin: 15px auto 0px;
+	    text-overflow: ellipsis;
+	    word-wrap: break-word;
+	    overflow: hidden;
+	}
+
+}

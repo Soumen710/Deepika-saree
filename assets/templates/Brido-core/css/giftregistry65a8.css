@@ -1,0 +1,609 @@
+/********** My Gift Registry Global *********/
+.giftregistryGiftInfo .giftregField > div > label {
+	width: 17%;
+	float: left;
+	color: #323232;
+    font-weight: 500;
+    height: 36px;
+    line-height: 36px;
+}
+.giftregistryGiftInfo .giftregField > div > label i {
+	display: none;
+}
+.giftregistryGiftInfo .giftregField > div > input,
+.giftregistryGiftInfo .giftregField > div.Registry_Date > div {
+	width: 83%;
+	max-width: 456px;
+	float: left;
+}
+.giftregistryGiftInfo .giftregField > div.Registry_Date > div {
+	max-width: 472px;
+}
+.giftregistryGiftInfo .giftregField .Registry_Msg .messageinstructions,
+.giftregistryGiftInfo .giftregField .Registry_PW .passwordinstructions {
+	padding-left: 17%;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 0;
+	clear: both;
+	display: inline-block;
+}
+.giftregistryGiftInfo .giftregField .Registry_PW .passwordinstructions {
+	margin-top: 5px;
+}
+
+#giftregistryView .content-area .titles2, #viewGiftregistryList .content-area .titles2, #giftregistryEdit .content-area .titles2 {
+	margin-bottom:25px;
+}
+
+.header > h4.page_heading,
+.giftregistryOwnerInfo label.page_heading {
+	border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: .02em;
+    font-weight: 600;
+    line-height: 16px;
+    width: 100%;
+}
+.save-cancel-button .btn-default {
+	 box-shadow: none; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    border: 2px solid #323232;
+    line-height: 14px;
+    min-width: 130px;
+    margin-right: 10px;
+}
+.Registry_Shipping a {
+	color: #323232;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+	.row.details_row {
+		padding: 10px 0;
+		margin: 15px auto;
+		-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	}
+	.row.details_row:nth-child(2n) {
+		background: #EAE9E9;
+		background: rgba(234, 233, 233, 0.3);
+		background-color: #EAE9E9;
+		background-color: rgba(234, 233, 233, 0.3);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99EAE9E9, endColorstr=#99EAE9E9);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99EAE9E9, endColorstr=#99EAE9E9)";
+	}
+	.giftregistryGiftInfo .giftregField > div > label {
+		height: 26px;
+		line-height: 26px;
+	}
+	.giftregistryGiftInfo .giftregField > div > label,
+	.giftregistryGiftInfo .giftregField > div > input,
+	.giftregistryGiftInfo .giftregField > div.Registry_Date > div
+	 {
+		width: 100%;
+	}
+	.giftregistryGiftInfo .giftregField > div > input,
+	.giftregistryGiftInfo .giftregField > div.Registry_Date > div {
+		margin-bottom: 10px;
+	}
+	#giftregistryEdit .giftregField {
+		clear: both;
+	}
+	.giftregistryGiftInfo .giftregField .Registry_Msg .messageinstructions, .giftregistryGiftInfo .giftregField .Registry_PW .passwordinstructions {
+		padding-left: 0;
+	}
+	.giftregistryGiftInfo .giftregField .Registry_PW .passwordinstructions {
+		margin-top: 0;
+	}
+}
+
+
+/********** My Gift Registry Login *********/
+#loginModalLabel {
+	color: #323232;
+	text-transform: uppercase;
+}
+.page_header .button {
+	position: relative;
+	top: auto;
+	right: auto;
+	display: inline-block;
+	padding: 0;
+	margin-top: 20px;
+}
+.page_header .button .btn {
+	border: 2px solid #323232;
+	min-width: 90px;
+	padding-top:7px;
+	padding-bottom: 6px;
+}
+.page_header .button .btn:hover {
+	color: #fff;
+	background: #323232;
+	text-decoration: none;
+}
+
+#giftregistry_preloginHeader {
+	background-color: #fafafa;
+	border: 1px solid #efefef;
+	padding: 15px;
+}
+.btn i {
+	display: none;
+}
+#loginModal #myaccountLogin .loginField label {
+	font-weight: 500;
+	color: #323232;
+}
+
+#loginModal #myaccountLogin .btn-primary {
+	min-width: 120px;
+}
+#loginModal #myaccountLogin .btn-link {
+	box-shadow: none; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    padding: 0;
+    letter-spacing: .02em;
+    text-transform: none;
+    font-size: 12px;
+    border-bottom: 1px solid #c1c1c1;
+    font-weight: 500;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#loginModal #myaccountLogin .btn-link:hover {
+	color: #000;
+}
+#loginModal .modal-footer {
+	display: none;
+}
+#viewGiftregistryList {}
+#viewGiftregistryList .category-header {
+	margin: 0 0 20px;
+}
+@media (max-width: 480px) {
+	#loginModal #myaccountLogin .btn-link {
+		width: auto;
+		margin-left: 0;
+	}
+}
+/********** My Gift Registry List Page *********/
+#giftregistryView .registryInfo {
+	margin-top: 10px;
+}
+#giftregistryView .header {
+	position:relative;
+}
+#giftregistryView .header > h4.page_heading{
+	margin-bottom:25px;
+}
+#giftregistryView .label {
+	font-size:100%;
+	text-transform:none;
+	color: #323232;
+	font-weight: 500;
+}
+#giftregistryView .label:after {
+	content:':';
+	display:inline-block;
+}
+.giftregistryGiftInfo {
+	margin-bottom: 10px;
+}
+.giftregistryGiftInfo > .row > div > label i {
+	margin-right:10px;
+}
+.giftregistryGiftInfo .row > div[class^="Registry_"] {
+	margin:0 auto 10px auto;
+	width: 100%;
+	display: inline-block;
+}
+.giftregistryGiftInfo .row > div[class^="Registry_"] label,
+.giftregistrySendEmails .giftregField label {
+	width: 20%;
+	float: left;
+	color: #323232;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+.giftregistryGiftInfo .row > div[class^="Registry_"] label i {
+	display: none;
+}
+.giftregistryGiftInfo .row > div[class^="Registry_"] .text,
+.giftregistrySendEmails .giftregField input {
+	width: 80%;
+	float: left;
+}
+.giftregistrySendEmails .giftregField input {
+	max-width: 456px;
+}
+.giftregistrySendEmails .giftregField {
+	margin-bottom: 10px !important;
+}
+#giftregistryView .header > .button a {
+	color: #323232;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-left: 15px;
+}
+.view-productlist-button .btn,
+.giftregistrySendEmails .send-email-button .btn-default {
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	-ms-text-shadow: none;
+	text-shadow: none;
+	border: 2px solid #323232;
+	line-height: 14px;
+	margin-top: 15px;
+}
+.giftregistrySendEmails {
+	padding-bottom: 40px;
+}
+.giftregistrySendEmails .send-email-button {
+	margin-top: 15px;
+}
+.giftregistrySendEmails .send-email-button .btn-default {
+	margin-top: 0;
+    margin-right: 15px;
+    margin-left: 20%;
+    min-width: 200px;
+}
+.giftregistrySendEmails .send-email-button .btn-primary {
+	min-width: 150px;
+	line-height: 18px;
+}
+#giftregistryView .header > .button{
+	position:absolute;
+	top:0;
+	right:0;
+	background:#fff;
+	padding:0 10px;
+}
+@media (min-width: 768px) {
+	
+}
+
+.giftreg-productList_titles {
+	padding: 0 0px 0px 0px;
+	border-bottom:1px solid #ececec;
+	margin-bottom:0px;
+}
+.giftreg-productList_details {
+	padding:5px 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.giftreg-productList_details .text-center {
+		text-align: left;
+	}
+	.giftregistryGiftInfo .row > div[class^="Registry_"] label,
+	.giftregistrySendEmails .giftregField label,
+	.giftregistryGiftInfo .row > div[class^="Registry_"] .text,
+	.giftregistrySendEmails .giftregField input {
+		width: 100%
+	}
+	.giftregistryGiftInfo .row > div[class^="Registry_"] label,
+	.giftregistrySendEmails .giftregField label {
+		margin-bottom: 5px;
+	}
+	.giftregistrySendEmails .send-email-button .btn-default {
+		margin-left: 0;
+	}
+	.giftreg-productList_details label {
+		font-weight: 500;
+		color: #323232;
+	}
+	.giftreg-productList_details label.gr-desired {
+		height: 40px;
+		line-height: 40px;
+	}
+	.giftreg-productList_details a.update-qty {
+		margin-top: 10px;
+		margin-bottom: 15px;
+		padding-left: 12px;
+	}
+	.giftreg-productList_details div.quant-input {
+		margin: 0;
+	}	
+}
+
+@media (max-width: 480px) {
+	.giftregistrySendEmails .send-email-button .btn {
+		width: 100%;
+	}
+	.giftregistrySendEmails .send-email-button .btn-default {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+}
+.giftregistryOwnerInfo {
+	margin:25px auto 0px auto;
+}
+.giftregistryOwnerInfo .row div[class^="Registry_"] {
+	margin:0 auto 40px auto;
+}
+.giftregistryOwnerInfo .row div[class^="Registry_"] .row label {
+	margin-bottom: 10px;
+}
+.giftreg-ship-address input[type="checkbox"] {
+	margin:0 8px 0 0;
+}
+.giftreg-ship-address > div {
+	padding-left: 25px;
+}
+.giftregistrySendEmails .form_data {
+	margin:25px auto 0 auto;
+}
+.form_data .giftregField, .loginField {
+	margin-bottom:25px;
+}
+
+
+/********** My Wishlist Detail Page *********/
+#viewGiftregistryList {}
+#viewGiftregistryList .opt-format {
+	padding-top:10px;
+	padding-bottom:5px;
+}
+.giftreg-productList, .giftreg-purchasedList, .giftreg-back-button {
+	margin:25px auto 0 auto;
+}
+
+div.item-thumb {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+    float: left;
+}
+div.item-name-right {
+    width: -webkit-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    width: calc(100% - 110px);
+    padding-left: 20px;
+    display: block;
+    float: left;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 991px) {
+	div.item-thumb {
+		height:65px;
+		width: 65px;
+	}
+	div.item-name-right {
+		width: -webkit-calc(100% - 65px);
+		width: -moz-calc(100% - 65px);
+		width: calc(100% - 65px);
+		padding: 0 0 0 10px;
+	}
+	.btn-xs {
+		padding: 2px 5px !important;
+	}
+}
+@media only screen and (max-width: 767px) {
+	div.item-thumb {
+		height:90px;
+		width: 100%;
+		float: none;
+	}
+	div.item-name-right {
+		width: 100%;
+		float: none;
+		padding: 15px 0;
+	}
+	.gr-details {
+		margin:15px 0;
+	}
+	.wishlistView_details .item-price, .wishlistView_details .item-total {
+		padding-top:0px;
+	}
+	.btn-xs {
+		padding: 8px 12px !important;
+	}
+}
+div.item-name-right .item-fullname {
+	margin-bottom:10px;
+}
+div.item-name-right .item-fullname a {
+	color: #000;
+}
+
+div.quant-input {
+    display: block;
+	position: relative;
+	width: 80px;
+	margin:auto;
+	margin-bottom: 15px;
+}
+div.quant-input input[type="text"] {
+    display: block;
+    border: 1px solid #ececec;
+    margin: 0;
+    padding: 0 28px 0 5px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    color: #949494;
+    font-size: 15px;
+}
+span.qty-nav {
+    display: block;
+    height: 38px;
+    width: 28px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+span.itemoptions {
+    display: block;
+    font-size: 12px;
+    margin: 10px 0 0;
+    line-height: 1.4em;
+}
+span.qty-nav > button {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    border-left: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	line-height: 18px;
+	outline: none !important;
+}
+span.qty-nav > button:last-child { border-bottom-color: transparent }
+span.qty-nav > button:hover { background-color: #ececec }
+a.update-qty {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+}
+
+
+
+/********** Delete Gift Registy / Pre-Login Page *********/
+#giftregistryDelete, #giftregistryPrelogin {}
+
+.delete-message, .continue-button {
+	margin:25px auto;
+}
+.delete-message .delete-actions .btn {
+	min-width: 70px;
+	margin-top: 15px;
+}
+.delete-message .delete-actions  .btn-default {
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	-ms-text-shadow: none;
+	text-shadow: none;
+	border: 2px solid #323232;
+	line-height: 14px;
+	margin-right: 15px;
+}
+.continue-button button{
+	min-width:150px;
+	  box-shadow: none; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    border: 2px solid #323232;
+    line-height: 14px;
+    padding: 9px 12px;
+}
+.continue-button button:hover {
+	border-color: #323232;
+}
+.continue-button button:first-child {
+	margin-right: 15px;
+	min-width: 232px;
+}
+.continue-button span{
+	margin:0 15px;
+	display: none;
+}
+
+@media (max-width: 480px) {
+	.continue-button button {
+	    display: block;
+	    margin: 10px auto;
+	    width: 100%;
+	}
+}
+
+/********** Gift Registy Email Preview *********/
+.giftregistryPreviewEmail {
+	margin: 25px auto;
+	padding: 15px;
+	-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.label_section {
+	margin-bottom: 5px;
+}
+
+/********** Gift Registy Home/Edit *********/
+#giftregistryEdit {}
+#giftregistryEdit .smallrow, #giftregistryHome .smallrow, .smallrow {
+	margin-left:-7px;
+	margin-right:-7px;
+}
+#giftregistryEdit .smallcol, #giftregistryHome .smallcol, .smallcol {
+	padding-right:7px;
+	padding-left:7px;
+}
+#giftregistryEdit .giftregField, #giftregistryHome .giftregField, #giftregistryHomePassword .giftregField {
+	margin-bottom:10px;
+}
+#giftregistryEdit .label {
+	font-size:100%;
+	font-weight:400;
+	text-transform:none;
+	margin-bottom: 10px;
+}
+#giftregistryEdit .label:after {
+	content:':';
+	display:inline-block;
+}
+#giftregistryEdit textarea.form-control {
+	width: 80%;
+    max-width: 456px;
+	min-height:100px;
+    height: auto;
+}
+#divSelectedAddress {
+	margin:10px auto;
+}
+#giftregistryHome form, #giftregistryHomePassword form {
+	/*margin-top: 25px;*/
+}
+#giftregistryHomePassword .category-header {
+	margin-top: 0;
+}
+.giftregistryHome .category-header {
+	margin-bottom: 0;
+}
+#giftregistryHome form > .row, #giftregistryHomePassword form > .row{
+	margin-bottom:35px;
+}
+.Registry_Date select {
+	margin-bottom:5px;
+}
+.create-registry-button {
+    margin-top: 15px;
+}
+@media (min-width: 992px) {
+	.email_modal .modal-dialog {
+		width:825px;
+	}
+}
+.email_modal table {
+	width:100% !important;
+}
+
+#loginModal #resetPWLabel, #loginModal #forgotPass {
+    display: none;
+}
+#loginModal .PWreset #resetPWLabel {
+    display: block;
+}
+#loginModal .PWreset #loginModalLabel {
+    display: none;
+}
+@media (max-width: 767px) {
+	#giftregistryEdit textarea.form-control {
+		width: 100%;
+	}
+}

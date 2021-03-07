@@ -1,0 +1,138 @@
+h5 {
+	text-transform:uppercase;
+	font-weight:600;
+}
+.breadcrumnb {
+	display: none;
+}
+.page-content {
+	padding-bottom: 120px;
+}
+.page_header {
+	background: #fafafa;
+	padding: 21px 0;
+	margin-bottom: 10px;
+}
+.page_header h1.page_heading {
+	margin-bottom: 0;
+}
+
+h3.page_heading {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: .02em;
+	text-transform: capitalize;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #efefef;
+	margin-top: 38px;
+}
+.captcha-text {
+	margin:10px auto;
+}
+.form-control {
+	max-width: 442px;
+	float: left;
+}
+.validation-field > span.label,
+#divRobocop > span {
+	width: 13%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-weight: 500;
+	color: #323232;
+}
+.required-indicator {
+	position: relative;
+	top: auto;
+	right: auto;
+	float: left;
+	margin-left: 15px;
+	padding-top: 12px;
+}
+.accountRegForm > .loginField > .label {
+	border-bottom: 1px solid #efefef;
+	padding-bottom: 9px;
+	margin-top: 38px;
+	margin-bottom: 23px;
+}
+.accountRegForm > .loginField > .label label {
+	color: #323232;
+	font-weight: 600;
+	font-size: 16px;
+}
+.accountRegForm > .loginField .required-indicator {
+	padding-left: 13%;
+	width: 100%;
+	margin: 0 0 23px 0;
+	color: #f1152f;
+}
+.accountRegForm > .loginField .required-indicator:before {
+	margin-right: 2px;
+	color: #f1152f;
+}
+#divRobocop {
+	display: inline-block;
+	width: 100%;
+}
+#blog-g-recaptcha {
+	float: left;
+	max-width: 442px;
+}
+#updateAccount .loginInfo, #updateAccount .billingInfo, #updateAccount .shippingInfo, #updateAccount .otherInfo {
+	margin-bottom:10px;
+}
+.loginField{
+	margin-bottom:10px;
+}
+.error {
+	margin:10px 0;
+}
+.required.error {
+	margin-bottom: 15px;
+}
+
+.header > .page_heading {
+    margin-bottom: 25px;
+}
+.submit-button {
+    margin: 25px 0 0;
+    padding-left: 13%;
+}
+.submit-button > .btn {
+    min-width: 180px;
+}
+@media(max-width: 767px) {
+	.loginField {
+		clear: both;
+	}
+}
+#divAddrressValidator > div {
+	position: absolute;
+	width: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) !important;
+	padding: 50px;
+	text-align: center;
+}
+#divAddrressValidator .modal-close {
+	position: absolute;
+	top: -14px;
+	right: -14px;
+	background: #000;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+#divAddrressValidator .modal-close span {
+	font-size: 28px;
+	color: #fff;
+	line-height: 30px;
+}
+
+@media(max-width: 580px) {
+	#divAddrressValidator > div {
+		padding: 30px;
+	}
+}
